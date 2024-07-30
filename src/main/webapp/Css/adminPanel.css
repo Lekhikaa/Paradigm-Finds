@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+ul {
+    list-style-type: none;   /* Removes the bullets*/
+    margin: 0;               /* Remove browser default settings*/
+    padding: 0;
+    overflow: hidden;       /* Hides any content that overflows the boundaries of the container.*/
+    text-align: center;
+}
+  
+  li a {
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;   /* Removes any decorations that's on the text*/
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #e1fcfc;
+  }
+
+  .sidebar {
+    background-color: #f4f4f4;
+    width: 200px; /* Increased sidebar width */
+    padding: 20px; /* Added relative positioning */
+    text-align: center;
+    height: 550px;
+    margin: 0%;
+}
+.button {
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #e1fcfc;
+}
+
+.button:hover {
+  background-color:#e1fcfc;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

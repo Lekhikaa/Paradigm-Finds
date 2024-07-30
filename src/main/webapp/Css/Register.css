@@ -1,0 +1,184 @@
+@charset "UTF-8";
+ *,::after,::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+body{
+    display: grid;
+}
+.container{
+    display: flex;
+}
+
+.container>*{
+    flex: 1;
+}
+
+ .section1>img{
+    width: 100%;
+    height: 100vh;
+} 
+
+ .section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+} 
+.block1>h1{
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000000;
+} 
+.frame1{
+    display: flex;
+    flex-direction: row; 
+}
+.frame2{
+    display: flex;
+    flex-direction: row;    
+}
+.frame3{
+    display: flex;
+    flex-direction: row;  
+}
+.frame4{
+    display: flex;
+    flex-direction: row;
+}
+
+.frame5{
+    display: flex;
+    flex-direction: row;
+}
+
+.frame6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.frame7>a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.frame7>a{
+    color: gray;
+}
+.frame7>a:hover{
+    color: #000000;
+}
+
+.frame7>h3,.frame7>a{
+    display: inline-block;
+}
+
+.block6>a:hover{
+    color:black;
+}
+.block2 > input::placeholder,
+.block3 > input::placeholder,
+.block4 > input::placeholder,
+.block5 > input::placeholder,
+.block6 > input::placeholder,
+.block7 > input::placeholder,
+.block8 > input::placeholder,
+.block9 > input::placeholder,
+.block10 > input::placeholder,
+.block11 > input::placeholder {
+    font-size: 16px; 
+    padding-left: 10px; 
+}
+
+.block6>select{
+    font-size: 15px;
+    color: gray;
+    padding-left: 20px;
+}
+
+.block2 > input,
+.block3 > input,
+.block4 > input,
+.block5 > input,
+.block6 > input,
+.block7 > input,
+.block8 > input,
+.block9 > input,
+.block10 > input,
+.block11 > input {
+    height: 40px;
+    width: 300px; 
+    border-radius: 20px; 
+    border: 1px solid #000000;
+    margin-bottom: 10px; 
+    padding: 0 10px; 
+    margin-right: 10px;
+}
+.block2>i,.block3>i,
+.block4>i,.block5>i,
+.block6>i,.block7>i,
+.block8>i,.block9>i,
+.block10>i,.block11>i{
+    margin-right: 20px;
+    margin-top: 5px;
+    color: #000000;
+    font-size:20px; ;
+}
+ /*Color of icon */
+.block4>i,.block5>i,.block4>i,.block5>i,.block6>i,.block7>i,.block8>i,.block9>i,.block10>i,.block11>i{
+    margin-right: 20px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.block6>i,.block7>i{
+    margin-right: 20px;
+    margin-top: 5px;
+    color: #000000;
+}
+.block5>i,.block6>i{
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom:20px ;
+    color: #000000;
+}
+/* Radius of box */
+ .block2>input,.block3>input,.block4>input,.block5>input,.block6>input,.block7>input,.block8>input,.block9>input,.block10>input,.block11>input{
+    height: 40px;
+    width: 250px;
+    border-radius: 30px;
+    border: 1px solid #000000;
+}
+
+.block12>input,.block12>h6{
+    display: inline-block;
+}
+.block13>button{
+    height: 50px;
+    width: 225px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.block13>button{
+    background-color:#000000;
+    color: white;
+ }
+.block13>button:hover{
+   background-color:gray;
+   color: white;
+} 
+
+
+
